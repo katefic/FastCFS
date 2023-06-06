@@ -252,7 +252,7 @@ $ ll /etc/fastcfs/fstore
 101 [server-3]
 103 host = 192.168.126.103  // 节点103的地址，使用默认的端口号
 ```
-3. **服务配置文件** 在101节点上，/etc/fastcfs/fstore/server.conf 和  /etc/fastcfs/fstore/storage.conf. 默认均需要修改，只需确认下server.conf的配置是否正确
+3. **服务配置文件** 在101节点上，/etc/fastcfs/fstore/server.conf 和  /etc/fastcfs/fstore/storage.conf. 默认均不需要修改，只需确认下server.conf的配置是否正确
 ```
 190 [replica]
 191 bind_addr =
